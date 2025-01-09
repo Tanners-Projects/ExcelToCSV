@@ -18,8 +18,9 @@ Dependencies:
 
 To build:
 
-pyinstaller --onefile --noconsole ExcelToCSV2.py
-pyinstaller ExcelToCSV2.spec
+- pyinstaller --onefile --noconsole ExcelToCSV2.py
+
+- pyinstaller ExcelToCSV2.spec
 
 
 To Do:
@@ -28,9 +29,9 @@ Convert python to C++
 
 Add error checking
 - Incorrect file name/type
-- Incorrect input/output jpath
+- Incorrect input/output path
 - No input
-- Missing images, non-critical dependencies (as of now, only image)
+- Missing image, non-critical dependencies (as of now, only image)
 - Edge cases such as too few/many names
 
 Include Windows File Explorer for input/output selction
