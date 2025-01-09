@@ -17,4 +17,5 @@ Dependencies:
 
 To build:
 pyinstaller --onefile --noconsole ExcelToCSV2.py
+
 pyinstaller ExcelToCSV2.spec
