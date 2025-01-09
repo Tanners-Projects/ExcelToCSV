@@ -20,3 +20,19 @@ To build:
 
 pyinstaller --onefile --noconsole ExcelToCSV2.py
 pyinstaller ExcelToCSV2.spec
+
+
+To Do:
+
+Convert python to C++
+
+Add error checking
+- Incorrect file name/type
+- Incorrect input/output jpath
+- No input
+- Missing images, non-critical dependencies (as of now, only image)
+- Edge cases such as too few/many names
+
+Include Windows File Explorer for input/output selction
+
+Build .exe such that Windows Defender/firewall does not block by default
