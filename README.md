@@ -1,6 +1,7 @@
 # ExcelToCSV
 Convert Excel files into CSV files of a set amount of lines.
 
+To run via command line, only ExcelToCSV2.py and BEO.jpg are needed. The rest are used when building the .exe from the .py file.
 
 Dependencies:
 
@@ -16,6 +17,6 @@ Dependencies:
 - Directory: File needs to be in same directory as program
 
 To build:
-pyinstaller --onefile --noconsole ExcelToCSV2.py
 
+pyinstaller --onefile --noconsole ExcelToCSV2.py
 pyinstaller ExcelToCSV2.spec
